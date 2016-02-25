@@ -1,0 +1,24 @@
+{
+    "name": "gitbook-json",
+    "version": "0.0.0",
+    "description": "Utility to work with JSON output from GitBook",
+    "main": "lib/index.js",
+    "dependencies": {
+        "lodash": "^3.2.0"
+    },
+    "devDependencies": {
+        "mocha": "^2.3.2"
+    },
+    "scripts": {
+        "test": "export TESTING=true; mocha --reporter spec --bail"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GitbookIO/gitbook-json.git"
+    },
+    "author": "FriendCode Inc. <contact@gitbook.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/GitbookIO/gitbook-json/issues"
+    }
+}
