@@ -31,7 +31,6 @@ describe('Convert', function() {
 
     describe('To Version 1', function() {
         var version1 = gitbookJson.toVersion1(VERSION2);
-        console.log(version1)
 
         it('should not convert json already in version 1', function() {
             gitbookJson.toVersion1(VERSION1).should.equal(VERSION1);
