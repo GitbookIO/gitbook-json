@@ -7,7 +7,8 @@
         "lodash": "^3.2.0"
     },
     "devDependencies": {
-        "mocha": "^2.3.2"
+        "mocha": "^2.3.2",
+        "should": "8.2.2"
     },
     "scripts": {
         "test": "export TESTING=true; mocha --reporter spec --bail"
