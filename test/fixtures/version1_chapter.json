@@ -1,0 +1,623 @@
+{
+  "progress":{
+    "prevPercent":4.3478260869565215,
+    "percent":8.695652173913043,
+    "chapters":[
+      {
+        "index":0,
+        "title":"Introduction",
+        "introduction":true,
+        "next":{
+          "path":"installation/README.md",
+          "title":"Installation",
+          "level":"1",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"0",
+        "path":"README.md",
+        "percent":0,
+        "done":true
+      },
+      {
+        "index":1,
+        "title":"Installation",
+        "introduction":false,
+        "prev":{
+          "path":"README.md",
+          "title":"Introduction",
+          "level":"0",
+          "exists":true,
+          "external":false,
+          "introduction":true
+        },
+        "next":{
+          "path":"how_the_internet_works/README.md",
+          "title":"How the Internet works",
+          "level":"2",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"1",
+        "path":"installation/README.md",
+        "percent":4.3478260869565215,
+        "done":true
+      },
+      {
+        "index":2,
+        "title":"How the Internet works",
+        "introduction":false,
+        "prev":{
+          "path":"installation/README.md",
+          "title":"Installation",
+          "level":"1",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"intro_to_command_line/README.md",
+          "title":"Introduction to command line",
+          "level":"3",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"2",
+        "path":"how_the_internet_works/README.md",
+        "percent":8.695652173913043,
+        "done":true
+      },
+      {
+        "index":3,
+        "title":"Introduction to command line",
+        "introduction":false,
+        "prev":{
+          "path":"how_the_internet_works/README.md",
+          "title":"How the Internet works",
+          "level":"2",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"python_installation/README.md",
+          "title":"Python installation",
+          "level":"4",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"3",
+        "path":"intro_to_command_line/README.md",
+        "percent":13.043478260869565,
+        "done":false
+      },
+      {
+        "index":4,
+        "title":"Python installation",
+        "introduction":false,
+        "prev":{
+          "path":"intro_to_command_line/README.md",
+          "title":"Introduction to command line",
+          "level":"3",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"code_editor/README.md",
+          "title":"Code editor",
+          "level":"5",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"4",
+        "path":"python_installation/README.md",
+        "percent":17.391304347826086,
+        "done":false
+      },
+      {
+        "index":5,
+        "title":"Code editor",
+        "introduction":false,
+        "prev":{
+          "path":"python_installation/README.md",
+          "title":"Python installation",
+          "level":"4",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"python_introduction/README.md",
+          "title":"Introduction to Python",
+          "level":"6",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"5",
+        "path":"code_editor/README.md",
+        "percent":21.73913043478261,
+        "done":false
+      },
+      {
+        "index":6,
+        "title":"Introduction to Python",
+        "introduction":false,
+        "prev":{
+          "path":"code_editor/README.md",
+          "title":"Code editor",
+          "level":"5",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django/README.md",
+          "title":"What is Django?",
+          "level":"7",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"6",
+        "path":"python_introduction/README.md",
+        "percent":26.08695652173913,
+        "done":false
+      },
+      {
+        "index":7,
+        "title":"What is Django?",
+        "introduction":false,
+        "prev":{
+          "path":"python_introduction/README.md",
+          "title":"Introduction to Python",
+          "level":"6",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_installation/README.md",
+          "title":"Django installation",
+          "level":"8",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"7",
+        "path":"django/README.md",
+        "percent":30.434782608695652,
+        "done":false
+      },
+      {
+        "index":8,
+        "title":"Django installation",
+        "introduction":false,
+        "prev":{
+          "path":"django/README.md",
+          "title":"What is Django?",
+          "level":"7",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_start_project/README.md",
+          "title":"Your first Django project!",
+          "level":"9",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"8",
+        "path":"django_installation/README.md",
+        "percent":34.78260869565217,
+        "done":false
+      },
+      {
+        "index":9,
+        "title":"Your first Django project!",
+        "introduction":false,
+        "prev":{
+          "path":"django_installation/README.md",
+          "title":"Django installation",
+          "level":"8",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_models/README.md",
+          "title":"Django models",
+          "level":"10",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"9",
+        "path":"django_start_project/README.md",
+        "percent":39.130434782608695,
+        "done":false
+      },
+      {
+        "index":10,
+        "title":"Django models",
+        "introduction":false,
+        "prev":{
+          "path":"django_start_project/README.md",
+          "title":"Your first Django project!",
+          "level":"9",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_admin/README.md",
+          "title":"Django admin",
+          "level":"11",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"10",
+        "path":"django_models/README.md",
+        "percent":43.47826086956522,
+        "done":false
+      },
+      {
+        "index":11,
+        "title":"Django admin",
+        "introduction":false,
+        "prev":{
+          "path":"django_models/README.md",
+          "title":"Django models",
+          "level":"10",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"deploy/README.md",
+          "title":"Deploy!",
+          "level":"12",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"11",
+        "path":"django_admin/README.md",
+        "percent":47.82608695652174,
+        "done":false
+      },
+      {
+        "index":12,
+        "title":"Deploy!",
+        "introduction":false,
+        "prev":{
+          "path":"django_admin/README.md",
+          "title":"Django admin",
+          "level":"11",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_urls/README.md",
+          "title":"Django urls",
+          "level":"13",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"12",
+        "path":"deploy/README.md",
+        "percent":52.17391304347826,
+        "done":false
+      },
+      {
+        "index":13,
+        "title":"Django urls",
+        "introduction":false,
+        "prev":{
+          "path":"deploy/README.md",
+          "title":"Deploy!",
+          "level":"12",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_views/README.md",
+          "title":"Django views - time to create!",
+          "level":"14",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"13",
+        "path":"django_urls/README.md",
+        "percent":56.52173913043478,
+        "done":false
+      },
+      {
+        "index":14,
+        "title":"Django views - time to create!",
+        "introduction":false,
+        "prev":{
+          "path":"django_urls/README.md",
+          "title":"Django urls",
+          "level":"13",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"html/README.md",
+          "title":"Introduction to HTML",
+          "level":"15",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"14",
+        "path":"django_views/README.md",
+        "percent":60.869565217391305,
+        "done":false
+      },
+      {
+        "index":15,
+        "title":"Introduction to HTML",
+        "introduction":false,
+        "prev":{
+          "path":"django_views/README.md",
+          "title":"Django views - time to create!",
+          "level":"14",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_orm/README.md",
+          "title":"Django ORM (Querysets)",
+          "level":"16",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"15",
+        "path":"html/README.md",
+        "percent":65.21739130434783,
+        "done":false
+      },
+      {
+        "index":16,
+        "title":"Django ORM (Querysets)",
+        "introduction":false,
+        "prev":{
+          "path":"html/README.md",
+          "title":"Introduction to HTML",
+          "level":"15",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"dynamic_data_in_templates/README.md",
+          "title":"Dynamic data in templates",
+          "level":"17",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"16",
+        "path":"django_orm/README.md",
+        "percent":69.56521739130434,
+        "done":false
+      },
+      {
+        "index":17,
+        "title":"Dynamic data in templates",
+        "introduction":false,
+        "prev":{
+          "path":"django_orm/README.md",
+          "title":"Django ORM (Querysets)",
+          "level":"16",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_templates/README.md",
+          "title":"Django templates",
+          "level":"18",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"17",
+        "path":"dynamic_data_in_templates/README.md",
+        "percent":73.91304347826087,
+        "done":false
+      },
+      {
+        "index":18,
+        "title":"Django templates",
+        "introduction":false,
+        "prev":{
+          "path":"dynamic_data_in_templates/README.md",
+          "title":"Dynamic data in templates",
+          "level":"17",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"css/README.md",
+          "title":"CSS - make it pretty",
+          "level":"19",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"18",
+        "path":"django_templates/README.md",
+        "percent":78.26086956521739,
+        "done":false
+      },
+      {
+        "index":19,
+        "title":"CSS - make it pretty",
+        "introduction":false,
+        "prev":{
+          "path":"django_templates/README.md",
+          "title":"Django templates",
+          "level":"18",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"template_extending/README.md",
+          "title":"Template extending",
+          "level":"20",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"19",
+        "path":"css/README.md",
+        "percent":82.6086956521739,
+        "done":false
+      },
+      {
+        "index":20,
+        "title":"Template extending",
+        "introduction":false,
+        "prev":{
+          "path":"css/README.md",
+          "title":"CSS - make it pretty",
+          "level":"19",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"extend_your_application/README.md",
+          "title":"Extend your application",
+          "level":"21",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"20",
+        "path":"template_extending/README.md",
+        "percent":86.95652173913044,
+        "done":false
+      },
+      {
+        "index":21,
+        "title":"Extend your application",
+        "introduction":false,
+        "prev":{
+          "path":"template_extending/README.md",
+          "title":"Template extending",
+          "level":"20",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"django_forms/README.md",
+          "title":"Django Forms",
+          "level":"22",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"21",
+        "path":"extend_your_application/README.md",
+        "percent":91.30434782608695,
+        "done":false
+      },
+      {
+        "index":22,
+        "title":"Django Forms",
+        "introduction":false,
+        "prev":{
+          "path":"extend_your_application/README.md",
+          "title":"Extend your application",
+          "level":"21",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"whats_next/README.md",
+          "title":"What's next?",
+          "level":"23",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"22",
+        "path":"django_forms/README.md",
+        "percent":95.65217391304348,
+        "done":false
+      },
+      {
+        "index":23,
+        "title":"What's next?",
+        "introduction":false,
+        "prev":{
+          "path":"django_forms/README.md",
+          "title":"Django Forms",
+          "level":"22",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"23",
+        "path":"whats_next/README.md",
+        "percent":100,
+        "done":false
+      }
+    ],
+    "current":{
+      "index":2,
+      "title":"How the Internet works",
+      "introduction":false,
+      "prev":{
+        "path":"installation/README.md",
+        "title":"Installation",
+        "level":"1",
+        "exists":true,
+        "external":false,
+        "introduction":false
+      },
+      "next":{
+        "path":"intro_to_command_line/README.md",
+        "title":"Introduction to command line",
+        "level":"3",
+        "exists":true,
+        "external":false,
+        "introduction":false
+      },
+      "level":"2",
+      "path":"how_the_internet_works/README.md",
+      "percent":8.695652173913043,
+      "done":true
+    }
+  },
+  "sections":[
+    {
+      "type":"normal",
+      "content":"<h1 id=\"how-the-internet-works\">How the Internet works</h1>\n<blockquote>\n<p>For readers at home: this chapter is covered in <a href=\"https://www.youtube.com/watch?v=oM9yAA09wdc\" target=\"_blank\">How the Internet Works</a> video.</p>\n<p>This chapter is inspired by a talk &quot;How the Internet works&quot; by Jessica McKellar (<a href=\"http://web.mit.edu/jesstess/www/\" target=\"_blank\">http://web.mit.edu/jesstess/www/</a>).</p>\n</blockquote>\n<p>We bet you use the Internet every day. But do you actually know what happens when you type an address like <a href=\"http://djangogirls.org\" target=\"_blank\">http://djangogirls.org</a> into your browser and press <code>enter</code>?</p>\n<p>The first thing you need to understand is that a website is just a bunch of files saved on a hard disk. Just like your movies, music, or pictures.\nHowever, there is one part that is unique for websites: they include computer code called HTML.</p>\n<p>If you&apos;re not familiar with programming it can be hard to grasp HTML at first, but your web browsers (like Chrome, Safari, Firefox, etc.) love it. Web browsers are designed to understand this code,\nfollow its instructions, and present these files that your website is made of, exactly the way you want.</p>\n<p>As with every file, we need to store HTML files somewhere on a hard disk. For the Internet, we use special, powerful computers called <em>servers</em>. They don&apos;t have\na screen, mouse or a keyboard, because their main purpose is to store data and serve it. That&apos;s why they&apos;re called <em>servers</em> -- because they <em>serve</em> you data.</p>\n<p>OK, but you want to know how the Internet looks like, right?</p>\n<p>We drew you a picture! It looks like this:</p>\n<p><img src=\"images/internet_1.png\" alt=\"Figure 1.1\"></p>\n<p>Looks like a mess, right? In fact it is a network of connected machines (the above mentioned <em>servers</em>). Hundreds of thousands of machines! Many, many kilometers of cables around the world! You can visit a Submarine Cable Map website (<a href=\"http://submarinecablemap.com\" target=\"_blank\">http://submarinecablemap.com</a>) to see how complicated the net is. Here is a screenshot from the website:</p>\n<p><img src=\"images/internet_3.png\" alt=\"Figure 1.2\"></p>\n<p>It is fascinating, isn&apos;t it? But obviously, it is not possible to have a wire between every machine connected to the Internet. So, to reach a machine (for example the one where <a href=\"http://djangogirls.org\" target=\"_blank\">http://djangogirls.org</a> is saved) we need to pass a request through many, many different machines.</p>\n<p>It looks like this:</p>\n<p><img src=\"images/internet_2.png\" alt=\"Figure 1.3\"></p>\n<p>Imagine that when you type <a href=\"http://djangogirls.org\" target=\"_blank\">http://djangogirls.org</a>, you send a letter that says: &quot;Dear Django Girls, I want to see the djangogirls.org website. Send it to me, please!&quot;</p>\n<p>Your letter goes to the post office closest to you. Then it goes to another that is a bit nearer to your addressee, then to another, and another until it is delivered at its destination. The only unique thing is that if you send many letters (<em>data packets</em>) to the same place, they could go through totally different post offices (<em>routers</em>). This depends on how they are distributed at each office.</p>\n<p><img src=\"images/internet_4.png\" alt=\"Figure 1.4\"></p>\n<p>Yes, it is as simple as that. You send messages and you expect some response. Of course, instead of paper and pen you use bytes of data, but the idea is the same!</p>\n<p>Instead of addresses with a street name, city, zip code and country name, we use IP addresses. Your computer first asks the DNS (Domain Name System) to translate djangogirls.org into an IP address. It works a little bit like old-fashioned phonebooks where you could look up the name of the person you want to contact and find their phone number and address.</p>\n<p>When you send a letter, it needs to have certain features to be delivered correctly: an address, stamp etc. You also use a language that the receiver understands, right? The same applies to the <em>data packets</em> you send to see a website. We use a protocol called HTTP (Hypertext Transfer Protocol).</p>\n<p>So, basically, when you have a website, you need to have a <em>server</em> (machine) where it lives. When the <em>server</em> receives an incoming <em>request</em> (in a letter), it sends back your website (in another letter).</p>\n<p>Since this is a Django tutorial, you will ask what Django does. When you send a response, you don&apos;t always want to send the same thing to everybody. It is so much better if your letters are personalized, especially for the person that has just written to you, right? Django helps you with creating these personalized, interesting letters :).</p>\n<p>Enough talk, time to create!</p>\n"
+    }
+  ]
+}
