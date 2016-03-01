@@ -1,0 +1,162 @@
+{
+    "file": {
+        "path": "README.md",
+        "mtime": "2015-10-29T11:04:28.000Z",
+        "type": "markdown"
+    },
+    "page": {
+        "title": "Introduction",
+        "description": "Online book about how to write a computer operating system in C/C++ from scratch.",
+        "next": {
+            "level": "1",
+            "title": "Introduction about the x86 architecture and about our OS",
+            "depth": 1,
+            "path": "Chapter-1/README.md",
+            "anchor": null
+        },
+        "previous": null,
+        "level": "0",
+        "content": "<h1 id=\"how-to-make-a-computer-operating-system\">How to Make a Computer Operating System</h1>\n<p>Online book about how to write a computer operating system in C/C++ from scratch.</p>\n<p><strong>Caution</strong>: This repository is a remake of my old course. It was written several years ago <a href=\"https://github.com/SamyPesse/devos\" target=\"_blank\">as one of my first projects when I was in High School</a>, I&apos;m still refactoring some parts. The original course was in French and I&apos;m not an English native. I&apos;m going to continue and improve this course in my free-time.</p>\n<p><strong>Book</strong>: An online version is available at <a href=\"http://samypesse.gitbooks.io/how-to-create-an-operating-system/\" target=\"_blank\">http://samypesse.gitbooks.io/how-to-create-an-operating-system/</a> (PDF, Mobi and ePub). It was generated using <a href=\"https://www.gitbook.com/\" target=\"_blank\">GitBook</a>.</p>\n<p><strong>Source Code</strong>: All the system source code will be stored in the <a href=\"https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/tree/master/src\" target=\"_blank\">src</a> directory. Each step will contain links to the different related files.</p>\n<p><strong>Contributions</strong>: This course is open to contributions, feel free to signal errors with issues or directly correct the errors with pull-requests.</p>\n<p><strong>Questions</strong>: Feel free to ask any questions by adding issues or commenting sections.</p>\n<p>You can follow me on Twitter <a href=\"https://twitter.com/SamyPesse\" target=\"_blank\">@SamyPesse</a> or <a href=\"https://github.com/SamyPesse\" target=\"_blank\">GitHub</a>.</p>\n<h3 id=\"what-kind-of-os-are-we-building\">What kind of OS are we building?</h3>\n<p>The goal is to build a very simple UNIX-based operating system in C++, not just a &quot;proof-of-concept&quot;. The OS should be able to boot, start a userland shell, and be extensible.</p>\n<p><img src=\"preview.png\" alt=\"Screen\"></p>\n",
+        "dir": "ltr"
+    },
+    "gitbook": {
+        "version": "3.0.0-pre.0",
+        "time": "2016-02-25T16:19:05.248Z"
+    },
+    "book": {},
+    "summary": {
+        "parts": [
+            {
+                "title": "",
+                "articles": [
+                    {
+                        "level": "0",
+                        "title": "Introduction",
+                        "depth": 1,
+                        "path": "README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "1",
+                        "title": "Introduction about the x86 architecture and about our OS",
+                        "depth": 1,
+                        "path": "Chapter-1/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "2",
+                        "title": "Setup the development environment",
+                        "depth": 1,
+                        "path": "Chapter-2/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "3",
+                        "title": "First boot with GRUB",
+                        "depth": 1,
+                        "path": "Chapter-3/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "4",
+                        "title": "Backbone of the OS and C++ runtime",
+                        "depth": 1,
+                        "path": "Chapter-4/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "5",
+                        "title": "Base classes for managing x86 architecture",
+                        "depth": 1,
+                        "path": "Chapter-5/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "6",
+                        "title": "GDT",
+                        "depth": 1,
+                        "path": "Chapter-6/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "7",
+                        "title": "IDT and interrupts",
+                        "depth": 1,
+                        "path": "Chapter-7/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "8",
+                        "title": "Theory: physical and virtual memory",
+                        "depth": 1,
+                        "path": "Chapter-8/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "9",
+                        "title": "Memory management: physical and virtual",
+                        "depth": 1,
+                        "path": "chapter9/README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level": "10",
+                        "title": "Process management and multitasking",
+                        "depth": 1
+                    },
+                    {
+                        "level": "11",
+                        "title": "External program execution: ELF files",
+                        "depth": 1
+                    },
+                    {
+                        "level": "12",
+                        "title": "Userland and syscalls",
+                        "depth": 1
+                    },
+                    {
+                        "level": "13",
+                        "title": "Modular drivers",
+                        "depth": 1
+                    },
+                    {
+                        "level": "14",
+                        "title": "Some basics modules: console, keyboard",
+                        "depth": 1
+                    },
+                    {
+                        "level": "15",
+                        "title": "IDE Hard disks",
+                        "depth": 1
+                    },
+                    {
+                        "level": "16",
+                        "title": "DOS Partitions",
+                        "depth": 1
+                    },
+                    {
+                        "level": "17",
+                        "title": "EXT2 read-only filesystems",
+                        "depth": 1
+                    },
+                    {
+                        "level": "18",
+                        "title": "Standard C library (libC)",
+                        "depth": 1
+                    },
+                    {
+                        "level": "19",
+                        "title": "UNIX basic tools: sh, cat",
+                        "depth": 1
+                    },
+                    {
+                        "level": "20",
+                        "title": "Lua interpreter",
+                        "depth": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "version": "3"
+}
