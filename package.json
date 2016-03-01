@@ -1,6 +1,6 @@
 {
     "name": "gitbook-json",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Utility to work with JSON output from GitBook",
     "main": "lib/index.js",
     "dependencies": {
