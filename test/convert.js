@@ -1,8 +1,9 @@
 var should = require('should');
 var gitbookJson = require('../')
 
-var VERSION2 = require('./fixtures/version2');
-var VERSION3 = require('./fixtures/version3');
+var VERSION2           = require('./fixtures/version2');
+var VERSION3           = require('./fixtures/version3');
+var VERSION3_CONVERTED = require('./fixtures/version3_converted');
 
 var ES_VERSION2_INVALID = require('./fixtures/empty_sections/version2_invalid');
 var ES_VERSION2_VALID   = require('./fixtures/empty_sections/version2_valid');
@@ -26,6 +27,10 @@ describe('Convert', function() {
             gitbookJson.toVersion3(VERSION3).should.equal(VERSION3);
         });
 
+        it('should convert version 1/2 to version 3', function() {
+            gitbookJson.toVersion3(VERSION2).should.eql(VERSION3_CONVERTED);
+        });
+
         it('should export page.content', function() {
             version3.page.should.be.an.Object();
             version3.page.content.should.be.a.String();
@@ -36,7 +41,7 @@ describe('Convert', function() {
     describe('To Version 2', function() {
         var version2 = gitbookJson.toVersion2(VERSION3);
 
-        it('should not convert json already in version 1', function() {
+        it('should not convert json already in version 1/2', function() {
             gitbookJson.toVersion2(VERSION2).should.equal(VERSION2);
         });
 
