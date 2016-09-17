@@ -4,6 +4,10 @@ var gitbookJson = require('../')
 var VERSION2 = require('./fixtures/version2');
 var VERSION3 = require('./fixtures/version3');
 
+var ES_VERSION2_INVALID = require('./fixtures/empty_sections/version2_invalid');
+var ES_VERSION2_VALID   = require('./fixtures/empty_sections/version2_valid');
+var ES_VERSION3         = require('./fixtures/empty_sections/version3');
+
 describe('Detection', function() {
     it('should detect version 1/2', function() {
         gitbookJson.detectVersion(VERSION2).should.equal(2);
@@ -64,5 +68,23 @@ describe('Convert', function() {
             version2.progress.percent.should.equal(0);
             version2.progress.prevPercent.should.equal(0);
         });
+    });
+});
+
+describe('No empty sections', function() {
+    var version2_invalid = gitbookJson.toVersion2(ES_VERSION2_INVALID);
+    var version2_valid   = gitbookJson.toVersion2(ES_VERSION2_VALID);
+
+    it('should handle empty sections for version 1/2', function() {
+        gitbookJson.toVersion2(ES_VERSION2_INVALID).should.eql(ES_VERSION2_VALID);
+    });
+
+    it('should handle empty sections for version 3', function() {
+        gitbookJson.toVersion3(ES_VERSION2_INVALID).should.eql(ES_VERSION3);
+    });
+
+    it('should not alter valid version 1/2 documents', function() {
+        gitbookJson.toVersion2(ES_VERSION2_VALID).should.equal(ES_VERSION2_VALID);
+        gitbookJson.toVersion2(VERSION2).should.equal(VERSION2);
     });
 });
