@@ -5,6 +5,9 @@ var VERSION2           = require('./fixtures/version2');
 var VERSION3           = require('./fixtures/version3');
 var VERSION3_CONVERTED = require('./fixtures/version3_converted');
 
+var VERSION2_DEPTH = require('./fixtures/depth_conversion/version2');
+var VERSION3_DEPTH = require('./fixtures/depth_conversion/version3');
+
 var ES_VERSION2_INVALID = require('./fixtures/empty_sections/version2_invalid');
 var ES_VERSION2_VALID   = require('./fixtures/empty_sections/version2_valid');
 var ES_VERSION3         = require('./fixtures/empty_sections/version3');
@@ -29,6 +32,7 @@ describe('Convert', function() {
 
         it('should convert version 1/2 to version 3', function() {
             gitbookJson.toVersion3(VERSION2).should.eql(VERSION3_CONVERTED);
+            gitbookJson.toVersion3(VERSION2_DEPTH).should.eql(VERSION3_DEPTH);
         });
 
         it('should export page.content', function() {
