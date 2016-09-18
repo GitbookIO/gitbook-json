@@ -1,0 +1,219 @@
+{
+  "progress":{
+    "prevPercent":0,
+    "percent":0,
+    "chapters":[
+      {
+        "index":0,
+        "title":"Introduction",
+        "introduction":true,
+        "next":{
+          "path":"Chapter-1/README.md",
+          "title":"Introduction about the x86 architecture and about our OS",
+          "level":"1",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"0",
+        "path":"README.md",
+        "percent":0,
+        "done":true
+      },
+      {
+        "index":1,
+        "title":"Introduction about the x86 architecture and about our OS",
+        "introduction":false,
+        "prev":{
+          "path":"README.md",
+          "title":"Introduction",
+          "level":"0",
+          "exists":true,
+          "external":false,
+          "introduction":true
+        },
+        "next":{
+          "path":"Chapter-1/First Part.md",
+          "title":"First part of chapter 1",
+          "level":"1.0",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"1",
+        "path":"Chapter-1/README.md",
+        "percent":0,
+        "done":false
+      },
+      {
+        "index":2,
+        "title":"First part of chapter 1",
+        "introduction":false,
+        "prev":{
+          "path":"Chapter-1/README.md",
+          "title":"Introduction about the x86 architecture and about our OS",
+          "level":"1",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"Chapter-1/Second Part.md",
+          "title":"Second part of chapter 1",
+          "level":"1.2",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"1.0",
+        "path":"Chapter-1/First Part.md",
+        "percent":0,
+        "done":false
+      },
+      {
+        "index":3,
+        "title":"Second part of chapter 1",
+        "introduction":false,
+        "prev":{
+          "path":"Chapter-1/First Part.md",
+          "title":"First part of chapter 1",
+          "level":"1.0",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"Chapter-2/README.md",
+          "title":"Setup the development environment",
+          "level":"2",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"1.1",
+        "path":"Chapter-1/Second Part.md",
+        "percent":0,
+        "done":false
+      },
+      {
+        "index":4,
+        "title":"Setup the development environment",
+        "introduction":false,
+        "prev":{
+          "path":"Chapter-1/Second Part.md",
+          "title":"Second part of chapter 1",
+          "level":"1.1",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"Chapter-2/First-Part/README.md",
+          "title":"First part of chapter 2",
+          "level":"2.0",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"2",
+        "path":"Chapter-2/README.md",
+        "percent":0,
+        "done":false
+      },
+      {
+        "index":5,
+        "title":"First part of chapter 2",
+        "introduction":false,
+        "prev":{
+          "path":"Chapter-2/README.md",
+          "title":"Introduction about the x86 architecture and about our OS",
+          "level":"2",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"Chapter-2/First-Part/First Part.md",
+          "title":"First part of first part of chapter 2",
+          "level":"2.0.0",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"2.0",
+        "path":"Chapter-2/First-Part/README.md",
+        "percent":0,
+        "done":false
+      },
+      {
+        "index":6,
+        "title":"First part of first part of chapter 2",
+        "introduction":false,
+        "prev":{
+          "path":"Chapter-2/First-Part/README.md",
+          "title":"First part of chapter 2",
+          "level":"2.0",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":{
+          "path":"Chapter-3/README.md",
+          "title":"First boot with GRUB",
+          "level":"3",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "level":"2.0.0",
+        "path":"Chapter-2/First-Part/First Part.md",
+        "percent":0,
+        "done":false
+      },
+      {
+        "index":7,
+        "title":"First boot with GRUB",
+        "introduction":false,
+        "prev":{
+          "path":"Chapter-2/README.md",
+          "title":"Setup the development environment",
+          "level":"2",
+          "exists":true,
+          "external":false,
+          "introduction":false
+        },
+        "next":null,
+        "level":"3",
+        "path":"Chapter-3/README.md",
+        "percent":0,
+        "done":false
+      }
+    ],
+    "current":{
+      "index":0,
+      "title":"Introduction",
+      "introduction":true,
+      "next":{
+        "path":"Chapter-1/README.md",
+        "title":"Introduction about the x86 architecture and about our OS",
+        "level":"1",
+        "exists":true,
+        "external":false,
+        "introduction":false
+      },
+      "level":"0",
+      "path":"README.md",
+      "percent":0,
+      "done":true
+    }
+  },
+  "sections":[
+    {
+      "type":"normal",
+      "content":"<h1 id=\"how-to-make-a-computer-operating-system\">How to Make a Computer Operating System</h1>\n<p>Online book about how to write a computer operating system in C/C++ from scratch.</p>\n<p><strong>Caution</strong>: This repository is a remake of my old course. It was written several years ago <a href=\"https://github.com/SamyPesse/devos\" target=\"_blank\">as one of my first projects when I was in High School</a>, I&apos;m still refactoring some parts. The original course was in French and I&apos;m not an English native. I&apos;m going to continue and improve this course in my free-time.</p>\n<p><strong>Book</strong>: An online version is available at <a href=\"http://samypesse.gitbooks.io/how-to-create-an-operating-system/\" target=\"_blank\">http://samypesse.gitbooks.io/how-to-create-an-operating-system/</a> (PDF, Mobi and ePub). It was generated using <a href=\"https://www.gitbook.com/\" target=\"_blank\">GitBook</a>.</p>\n<p><strong>Source Code</strong>: All the system source code will be stored in the <a href=\"https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/tree/master/src\" target=\"_blank\">src</a> directory. Each step will contain links to the different related files.</p>\n<p><strong>Contributions</strong>: This course is open to contributions, feel free to signal errors with issues or directly correct the errors with pull-requests.</p>\n<p><strong>Questions</strong>: Feel free to ask any questions by adding issues or commenting sections.</p>\n<p>You can follow me on Twitter <a href=\"https://twitter.com/SamyPesse\" target=\"_blank\">@SamyPesse</a> or <a href=\"https://github.com/SamyPesse\" target=\"_blank\">GitHub</a>.</p>\n<h3 id=\"what-kind-of-os-are-we-building\">What kind of OS are we building?</h3>\n<p>The goal is to build a very simple UNIX-based operating system in C++, not just a &quot;proof-of-concept&quot;. The OS should be able to boot, start a userland shell, and be extensible.</p>\n<p><img src=\"preview.png\" alt=\"Screen\"></p>\n"
+    }
+  ],
+  "langs":[
+
+  ]
+}

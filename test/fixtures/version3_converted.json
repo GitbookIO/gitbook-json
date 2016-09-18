@@ -6,7 +6,7 @@
     },
     "page": {
         "title": "Introduction",
-        "description": "Online book about how to write a computer operating system in C/C++ from scratch.",
+        "description": "",
         "next": {
             "level": "1",
             "title": "Introduction about the x86 architecture and about our OS",
@@ -20,7 +20,7 @@
         "dir": "ltr"
     },
     "gitbook": {
-        "version": "3.0.0-pre.0",
+        "version": "2.6.7",
         "time": "2016-02-25T16:19:05.248Z"
     },
     "book": {},
@@ -98,61 +98,6 @@
                         "depth": 1,
                         "path": "chapter9/README.md",
                         "anchor": null
-                    },
-                    {
-                        "level": "10",
-                        "title": "Process management and multitasking",
-                        "depth": 1
-                    },
-                    {
-                        "level": "11",
-                        "title": "External program execution: ELF files",
-                        "depth": 1
-                    },
-                    {
-                        "level": "12",
-                        "title": "Userland and syscalls",
-                        "depth": 1
-                    },
-                    {
-                        "level": "13",
-                        "title": "Modular drivers",
-                        "depth": 1
-                    },
-                    {
-                        "level": "14",
-                        "title": "Some basics modules: console, keyboard",
-                        "depth": 1
-                    },
-                    {
-                        "level": "15",
-                        "title": "IDE Hard disks",
-                        "depth": 1
-                    },
-                    {
-                        "level": "16",
-                        "title": "DOS Partitions",
-                        "depth": 1
-                    },
-                    {
-                        "level": "17",
-                        "title": "EXT2 read-only filesystems",
-                        "depth": 1
-                    },
-                    {
-                        "level": "18",
-                        "title": "Standard C library (libC)",
-                        "depth": 1
-                    },
-                    {
-                        "level": "19",
-                        "title": "UNIX basic tools: sh, cat",
-                        "depth": 1
-                    },
-                    {
-                        "level": "20",
-                        "title": "Lua interpreter",
-                        "depth": 1
                     }
                 ]
             }

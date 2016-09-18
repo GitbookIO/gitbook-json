@@ -1,0 +1,99 @@
+{
+    "file": {
+        "path":  "README.md",
+        "mtime": "2015-10-29T11:04:28.000Z",
+        "type":  "markdown"
+    },
+    "page": {
+        "title":       "Introduction",
+        "description": "",
+        "next": {
+            "level":  "1",
+            "title":  "Introduction about the x86 architecture and about our OS",
+            "depth":  1,
+            "path":   "Chapter-1/README.md",
+            "anchor": null
+        },
+        "previous": null,
+        "level":    "0",
+        "content":  "<h1 id=\"how-to-make-a-computer-operating-system\">How to Make a Computer Operating System</h1>\n<p>Online book about how to write a computer operating system in C/C++ from scratch.</p>\n<p><strong>Caution</strong>: This repository is a remake of my old course. It was written several years ago <a href=\"https://github.com/SamyPesse/devos\" target=\"_blank\">as one of my first projects when I was in High School</a>, I&apos;m still refactoring some parts. The original course was in French and I&apos;m not an English native. I&apos;m going to continue and improve this course in my free-time.</p>\n<p><strong>Book</strong>: An online version is available at <a href=\"http://samypesse.gitbooks.io/how-to-create-an-operating-system/\" target=\"_blank\">http://samypesse.gitbooks.io/how-to-create-an-operating-system/</a> (PDF, Mobi and ePub). It was generated using <a href=\"https://www.gitbook.com/\" target=\"_blank\">GitBook</a>.</p>\n<p><strong>Source Code</strong>: All the system source code will be stored in the <a href=\"https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/tree/master/src\" target=\"_blank\">src</a> directory. Each step will contain links to the different related files.</p>\n<p><strong>Contributions</strong>: This course is open to contributions, feel free to signal errors with issues or directly correct the errors with pull-requests.</p>\n<p><strong>Questions</strong>: Feel free to ask any questions by adding issues or commenting sections.</p>\n<p>You can follow me on Twitter <a href=\"https://twitter.com/SamyPesse\" target=\"_blank\">@SamyPesse</a> or <a href=\"https://github.com/SamyPesse\" target=\"_blank\">GitHub</a>.</p>\n<h3 id=\"what-kind-of-os-are-we-building\">What kind of OS are we building?</h3>\n<p>The goal is to build a very simple UNIX-based operating system in C++, not just a &quot;proof-of-concept&quot;. The OS should be able to boot, start a userland shell, and be extensible.</p>\n<p><img src=\"preview.png\" alt=\"Screen\"></p>\n",
+        "dir":      "ltr"
+    },
+    "gitbook": {
+        "version": "2.6.7",
+        "time":    "2016-02-25T16:19:05.248Z"
+    },
+    "book": {},
+    "summary": {
+        "parts": [
+            {
+                "title": "",
+                "articles": [
+                    {
+                        "level":  "0",
+                        "title":  "Introduction",
+                        "depth":  1,
+                        "path":   "README.md",
+                        "anchor": null
+                    },
+                    {
+                        "level":  "1",
+                        "title":  "Introduction about the x86 architecture and about our OS",
+                        "depth":  1,
+                        "path":   "Chapter-1/README.md",
+                        "anchor": null,
+                        "articles": [
+                            {
+                                "level":  "1.0",
+                                "title":  "First part of chapter 1",
+                                "depth":  2,
+                                "path":   "Chapter-1/First Part.md",
+                                "anchor": null
+                            },
+                            {
+                                "level":  "1.1",
+                                "title":  "Second part of chapter 1",
+                                "depth":  2,
+                                "path":   "Chapter-1/Second Part.md",
+                                "anchor": null
+                            }
+                        ]
+                    },
+                    {
+                        "level":  "2",
+                        "title":  "Setup the development environment",
+                        "depth":  1,
+                        "path":   "Chapter-2/README.md",
+                        "anchor": null,
+                        "articles": [
+                            {
+                                "level":  "2.0",
+                                "title":  "First part of chapter 2",
+                                "depth":  2,
+                                "path":   "Chapter-2/First-Part/README.md",
+                                "anchor": null,
+                                "articles": [
+                                    {
+                                        "level":  "2.0.0",
+                                        "title":  "First part of first part of chapter 2",
+                                        "depth":  3,
+                                        "path":   "Chapter-2/First-Part/First Part.md",
+                                        "anchor": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "level":  "3",
+                        "title":  "First boot with GRUB",
+                        "depth":  1,
+                        "path":   "Chapter-3/README.md",
+                        "anchor": null
+                    }
+                ]
+            }
+        ]
+    },
+    "version": "3"
+}

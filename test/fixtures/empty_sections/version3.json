@@ -1,0 +1,38 @@
+{
+    "version": "3",
+    "gitbook": {
+        "version": "2.6.7",
+        "time":    "2016-02-25T16:19:05.248Z"
+    },
+    "book": {},
+    "file": {
+        "path":  "README.md",
+        "mtime": "2015-10-29T11:04:28.000Z",
+        "type":  "markdown"
+    },
+    "page": {
+        "title":       "Introduction",
+        "next":        null,
+        "previous":    null,
+        "description": "",
+        "content":     "",
+        "dir":         "ltr",
+        "level":       "0"
+    },
+    "summary": {
+        "parts": [
+            {
+                "title": "",
+                "articles": [
+                    {
+                        "level":  "0",
+                        "title":  "Introduction",
+                        "depth":  1,
+                        "path":   "README.md",
+                        "anchor": null
+                    }
+                ]
+            }
+        ]
+    }
+}
